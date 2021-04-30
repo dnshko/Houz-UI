@@ -1,0 +1,22 @@
+{
+  "name": "houz-ui",
+  "version": "1.0.0",
+  "description": "UI for Houz",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnshko/Houz-UI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnshko/Houz-UI/issues"
+  },
+  "homepage": "https://github.com/dnshko/Houz-UI#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

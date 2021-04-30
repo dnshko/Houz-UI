@@ -1,0 +1,152 @@
+button {
+	border-radius: 0;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	overflow: visible;
+	text-transform: none;
+	-webkit-appearance: button;
+	&:focus {
+		outline: 1px dotted;
+		outline: 5px auto -webkit-focus-ring-color;
+	}
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+	&::-moz-focus-inner {
+		padding: 0;
+		border-style: none;
+	}
+}
+[role="button"] {
+	cursor: pointer;
+}
+[type="button"] {
+	-webkit-appearance: button;
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+	&::-moz-focus-inner {
+		padding: 0;
+		border-style: none;
+	}
+}
+[type="reset"] {
+	-webkit-appearance: button;
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+	&::-moz-focus-inner {
+		padding: 0;
+		border-style: none;
+	}
+}
+[type="submit"] {
+	-webkit-appearance: button;
+	&:not(:disabled) {
+		cursor: pointer;
+	}
+	&::-moz-focus-inner {
+		padding: 0;
+		border-style: none;
+	}
+}
+[type="number"] {
+	&::-webkit-inner-spin-button {
+		height: auto;
+	}
+	&::-webkit-outer-spin-button {
+		height: auto;
+	}
+}
+[type="search"] {
+	outline-offset: -2px;
+	-webkit-appearance: none;
+	&::-webkit-search-decoration {
+		-webkit-appearance: none;
+	}
+}
+// &::-webkit-file-upload-button {
+// 	font: inherit;
+// 	-webkit-appearance: button;
+// }
+input[type="submit"].btn-block {
+	width: 100%;
+}
+input[type="reset"].btn-block {
+	width: 100%;
+}
+input[type="button"].btn-block {
+	width: 100%;
+}
+button.close {
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+}
+button.bg-primary {
+	&:hover {
+		background-color: #1d3cf6 !important;
+	}
+	&:focus {
+		background-color: #1d3cf6 !important;
+	}
+}
+button.bg-secondary {
+	&:hover {
+		background-color: #d91a72 !important;
+	}
+	&:focus {
+		background-color: #d91a72 !important;
+	}
+}
+
+button.bg-success {
+	&:hover {
+		background-color: #1e7e34 !important;
+	}
+	&:focus {
+		background-color: #1e7e34 !important;
+	}
+}
+button.bg-info {
+	&:hover {
+		background-color: #117a8b !important;
+	}
+	&:focus {
+		background-color: #117a8b !important;
+	}
+}
+button.bg-warning {
+	&:hover {
+		background-color: #d39e00 !important;
+	}
+	&:focus {
+		background-color: #d39e00 !important;
+	}
+}
+button.bg-danger {
+	&:hover {
+		background-color: #bd2130 !important;
+	}
+	&:focus {
+		background-color: #bd2130 !important;
+	}
+}
+button.bg-light {
+	&:hover {
+		background-color: #dae0e5 !important;
+	}
+	&:focus {
+		background-color: #dae0e5 !important;
+	}
+}
+button.bg-dark {
+	&:hover {
+		background-color: #1d2124 !important;
+	}
+	&:focus {
+		background-color: #1d2124 !important;
+	}
+}
