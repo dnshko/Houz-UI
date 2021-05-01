@@ -1,0 +1,50 @@
+.prople-fav-icon{
+    z-index: 40;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    opacity: 0.5;
+    color: $color-blue;
+    text-decoration: underline;
+    border-radius: 50%;
+    background: lighten($color: $color-gray, $amount: 25px);
+    line-height: 2.5rem;
+    position: relative !important;
+    span{
+        position: absolute;
+        color: black;
+        font-weight: bolder;
+    margin-left: 15px;
+    }
+    margin-bottom: 10px;
+}
+.testimonial-quote {
+	margin-bottom: 10px;
+	color: $color-primary;
+	font-size: 1.5rem;
+}
+.testimonial {
+	position: relative;
+	margin-left: 3rem;
+	padding: 2rem;
+	padding-left: 70px;
+}
+.testimonial-text {
+	color: #656565;
+	font-size: 0.9rem;
+	line-height: 1.8rem;
+	line-height: 1.7rem;
+}
+.testimonial-avatar {
+	overflow: hidden;
+	width: 80px;
+	height: 80px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	box-shadow: -5.665px 9.429px 30px 0px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 50%;
+	left: 0;
+}

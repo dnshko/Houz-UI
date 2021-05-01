@@ -1,0 +1,19 @@
+.about-fav-icon{
+    z-index: 40;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    opacity: 0.5;
+    color: $color-blue;
+    text-decoration: underline;
+    border-radius: 50%;
+    background: lighten($color: $color-gray, $amount: 25px);
+    line-height: 2.5rem;
+    position: relative !important;
+    span{
+        position: absolute;
+    margin-left: 15px;
+    }
+    margin-bottom: 10px;
+}

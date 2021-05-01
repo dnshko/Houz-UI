@@ -14,6 +14,7 @@ html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	scroll-behavior: smooth;
 }
 article {
 	display: block;
@@ -7743,35 +7744,7 @@ a.text-dark {
 		background: $color-primary;
 	}
 }
-.testimonial-quote {
-	margin-bottom: 10px;
-	color: $color-primary;
-	font-size: 1.5rem;
-}
-.testimonial {
-	position: relative;
-	margin-left: 3rem;
-	padding: 4rem;
-	padding-left: 70px;
-}
-.testimonial-text {
-	color: #656565;
-	font-size: 0.9rem;
-	line-height: 1.8rem;
-	line-height: 1.7rem;
-}
-.testimonial-avatar {
-	overflow: hidden;
-	width: 80px;
-	height: 80px;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	border-radius: 50%;
-	box-shadow: -5.665px 9.429px 30px 0px rgba(0, 0, 0, 0.2);
-	position: absolute;
-	top: 50%;
-	left: 0;
-}
+
 .ribbon {
 	position: absolute;
 	top: 10px;
@@ -9565,42 +9538,7 @@ button.mfp-close {
 		opacity: 0;
 	}
 }
-.avatar {
-	display: inline-block;
-	position: relative;
-	width: 3rem;
-	height: 3rem;
-	text-align: center;
-	border: #dee2e6;
-	border-radius: 50%;
-	background: $color-white;
-	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
-	line-height: 3rem;
-}
-.avatar.avatar-sm {
-	width: 2.5rem;
-	height: 2.5rem;
-	line-height: 2.5rem;
-}
-.avatar.avatar-lg {
-	width: 5rem;
-	height: 5rem;
-	line-height: 5rem;
-}
-.avatar.avatar-xl {
-	width: 7rem;
-	height: 7rem;
-	line-height: 7rem;
-}
-.avatar.avatar-xxl {
-	width: 10rem;
-	min-width: 10rem;
-	height: 10rem;
-	line-height: 10rem;
-}
-.avatar.avatar-border-white {
-	border: solid 2px $color-white;
-}
+
 .opacity-1 {
 	opacity: .1;
 }

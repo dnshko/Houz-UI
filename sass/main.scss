@@ -11,7 +11,11 @@
 @import "components/breadcrumb";
 @import "components/buttons";
 @import "components/tabs";
+@import "components/avatar";
 //layout
-
 @import "layout/grid";
 @import "layout/screen";
+//pages
+@import "pages/components/home/about";
+@import "pages/components/home/projects";
+@import "pages/components/home/people";

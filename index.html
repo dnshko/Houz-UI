@@ -13,12 +13,13 @@
 </head>
 
 <body>
+    <!-- header start -->
     <header class="header">
         <!-- Navbar-->
         <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">
             <div class="container-fluid">
                 <div class="d-flex align-items-center"><a class="navbar-brand py-1" href="index.html"><img
-                            src="https://d19m59y37dris4.cloudfront.net/directory/1-6-1/img/logo.svg"
+                            src="https://www.goschedule.io/wp-content/uploads/2020/05/goschedule_mainlogo.svg"
                             alt="Directory logo"></a>
                     <form class="form-inline d-none d-sm-flex" action="#" id="search">
                         <div
@@ -47,211 +48,506 @@
         </nav>
         <!-- /Navbar -->
     </header>
+    <!-- main container -->
     <div class="container-fluid pt-6">
         <!-- Content here -->
         <div class="row">
             <div class="col-lg-8">
+                <!-- breadcrumb -->
                 <section class="justify-content-start">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Library</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Data</li>
+                            <li class="breadcrumb-item">Home</li>
+                            <li class="breadcrumb-item">India</li>
+                            <li class="breadcrumb-item">Bengaluru</li>
+                            <li class="breadcrumb-item">Architects</li>
+                            <li class="breadcrumb-item">PVS Architects</li>
                         </ol>
                     </nav>
                 </section>
+                <!-- breadcrumb end -->
+                <!-- section tbs -->
                 <section>
                     <div class="tabs">
                         <div class="tab-2">
                             <label for="tab-1">About</label>
-                            <input id="tab-1" name="tabs-two" type="radio" checked="checked">
-                            <div>
-                                <h4>About</h4>
-                                </p>
-                            </div>
+                            <input id="tab-1" name="tabs-two" type="radio" checked="checked" onclick="window.location='#about';">
                         </div>
                         <div class="tab-2">
                             <label for="tab-2">Project</label>
-                            <input id="tab-2" name="tabs-two" type="radio">
-                            <div>
-                                <h4>Project</h4>
-                            </div>
+                            <input id="tab-2" name="tabs-two" type="radio" onclick="window.location='#tab2';">
                         </div>
                         <div class="tab-2">
                             <label for="tab-3">People</label>
                             <input id="tab-3" name="tabs-two" type="radio">
-                            <div>
-                                <h4>People</h4>
-                            </div>
                         </div>
                         <div class="tab-2">
                             <label for="tab-4">Reviews</label>
                             <input id="tab-4" name="tabs-two" type="radio">
-                            <div>
-                                <h4>Reviews</h4>
-                            </div>
                         </div>
                         <div class="tab-2">
                             <label for="tab-5">Liked</label>
                             <input id="tab-5" name="tabs-two" type="radio">
-                            <div>
-                                <h4>Liked</h4>
+                        </div>
+                    </div>
+                    <hr class="tabs-hr" />
+                </section>
+                <!-- section tabs end -->
+                <!-- section about -->
+                <section id="about">
+                    <div class="container">
+                        <img src="https://i.stack.imgur.com/y9DpT.jpg" class="col-md-12" />
+                        <h6>Services Provided</h6>
+                        <p>content</p>
+                        <h6>Areas Served</h6>
+                        <p>content</p>
+                        <div>
+                            <a class="about-fav-icon" href="">
+                                <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M26.24 16.373L17.1 7.23303C14.4386 4.57168 10.0651 4.6303 7.33143 7.36397C4.59776 10.0976 4.53913 14.4712 7.20049 17.1325L15.1358 25.0678"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M32.9027 23.0033L40.838 30.9386C43.4994 33.5999 43.4408 37.9734 40.7071 40.7071C37.9734 43.4408 33.5999 43.4994 30.9386 40.8381L21.7985 31.698"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M26.1091 26.1416C28.8427 23.4079 28.9014 19.0344 26.24 16.373"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M21.7985 21.7985C19.0649 24.5322 19.0062 28.9057 21.6676 31.5671"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" /></svg>
+                                <span>wwww.google.com</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="about-fav-icon" href="">
+                                <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" fill="white" fill-opacity="0.01" />
+                                    <path
+                                        d="M24 44C24 44 39 32 39 19C39 10.7157 32.2843 4 24 4C15.7157 4 9 10.7157 9 19C9 32 24 44 24 44Z"
+                                        fill="none" stroke="#333" stroke-width="4" stroke-linejoin="round" />
+                                    <path
+                                        d="M24 25C27.3137 25 30 22.3137 30 19C30 15.6863 27.3137 13 24 13C20.6863 13 18 15.6863 18 19C18 22.3137 20.6863 25 24 25Z"
+                                        fill="none" stroke="#333" stroke-width="4" stroke-linejoin="round" /></svg>
+                                <span>wwww.google.com</span>
+                            </a>
+                        </div>
+                    </div>
+                    <hr />
+                </section>
+                <!-- section about end  -->
+                <!-- section project strat  -->
+                <section class="pt-2" id="tab2">
+                    <div class="container">
+                        <div>
+                            <a class="project-fav-icon" href="">
+                                <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" fill="white" fill-opacity="0.01" />
+                                    <path d="M12 44L22.6875 15.5" stroke="#000000" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M36 44L25.3125 15.5" stroke="#000000" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="24" cy="12" r="4" fill="none" stroke="#000000" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M37.5702 33C33.662 35.5307 29.0026 37 24 37C18.9974 37 14.3381 35.5307 10.4299 33"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M24 8V4" stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" /></svg>
+                                <span>Project</span>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="swiper-wrapper pb-5">
+                                    <div class="swiper-slide h-auto px-2">
+                                        <!-- place item-->
+                                        <div class="w-100 h-100 hover-animate"
+                                            data-marker-id="59c0c8e3a31e62979bf147c9">
+                                            <div class="card h-100 border-0 shadow">
+                                                <div class="card-img-top overflow-hidden gradient-overlay"> <img
+                                                        class="img-fluid" src="https://i.stack.imgur.com/y9DpT.jpg"
+                                                        alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
+                                                        href="#"></a>
+                                                    <div class="card-img-overlay-top text-right">
+                                                        <a class="card-fav-icon position-relative z-index-40" href="">
+                                                            <?xml version="1.0" encoding="UTF-8"?><svg width="24"
+                                                                height="24" viewBox="0 0 48 48" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="48" height="48" fill="white"
+                                                                    fill-opacity="0.01" />
+                                                                <path d="M34 10V4H8V38L14 35" fill="white" stroke="#333"
+                                                                    stroke-width="4" stroke-linecap="round"
+                                                                    stroke-linejoin="round" />
+                                                                <path d="M14 44V10H40V44L27 37.7273L14 44Z" fill="white"
+                                                                    stroke="#333" stroke-width="4"
+                                                                    stroke-linejoin="round" /></svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body d-flex align-items-center">
+                                                    <div class="w-100">
+                                                        <h6 class="card-title"><a class="text-decoration-none text-dark"
+                                                                href="">Sudharsan Villa,Laxmipatti</a></h6>
+                                                        <div class="d-flex card-subtitle mb-3">
+                                                            <p class="flex-grow-1 mb-0 text-muted text-sm">2 photos
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="swiper-wrapper pb-5">
+                                    <div class="swiper-slide h-auto px-2">
+                                        <!-- place item-->
+                                        <div class="w-100 h-100 hover-animate"
+                                            data-marker-id="59c0c8e3a31e62979bf147c9">
+                                            <div class="card h-100 border-0 shadow">
+                                                <div class="card-img-top overflow-hidden gradient-overlay"> <img
+                                                        class="img-fluid" src="https://i.stack.imgur.com/y9DpT.jpg"
+                                                        alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
+                                                        href="#"></a>
+                                                    <div class="card-img-overlay-top text-right">
+                                                        <a class="card-fav-icon position-relative z-index-40" href="">
+                                                            <?xml version="1.0" encoding="UTF-8"?><svg width="24"
+                                                                height="24" viewBox="0 0 48 48" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="48" height="48" fill="white"
+                                                                    fill-opacity="0.01" />
+                                                                <path d="M34 10V4H8V38L14 35" fill="white" stroke="#333"
+                                                                    stroke-width="4" stroke-linecap="round"
+                                                                    stroke-linejoin="round" />
+                                                                <path d="M14 44V10H40V44L27 37.7273L14 44Z" fill="white"
+                                                                    stroke="#333" stroke-width="4"
+                                                                    stroke-linejoin="round" /></svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body d-flex align-items-center">
+                                                    <div class="w-100">
+                                                        <h6 class="card-title"><a class="text-decoration-none text-dark"
+                                                                href="">Sudharsan Villa,Laxmipatti</a></h6>
+                                                        <div class="d-flex card-subtitle mb-3">
+                                                            <p class="flex-grow-1 mb-0 text-muted text-sm">2 photos
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" name="tabs-two">
+                            <div class="col-lg-6">
+                                <div class="swiper-wrapper pb-5">
+                                    <div class="swiper-slide h-auto px-2">
+                                        <!-- place item-->
+                                        <div class="w-100 h-100 hover-animate"
+                                            data-marker-id="59c0c8e3a31e62979bf147c9">
+                                            <div class="card h-100 border-0 shadow">
+                                                <div class="card-img-top overflow-hidden gradient-overlay"> <img
+                                                        class="img-fluid" src="https://i.stack.imgur.com/y9DpT.jpg"
+                                                        alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
+                                                        href="#"></a>
+                                                    <div class="card-img-overlay-top text-right">
+                                                        <a class="card-fav-icon position-relative z-index-40" href="">
+                                                            <?xml version="1.0" encoding="UTF-8"?><svg width="24"
+                                                                height="24" viewBox="0 0 48 48" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="48" height="48" fill="white"
+                                                                    fill-opacity="0.01" />
+                                                                <path d="M34 10V4H8V38L14 35" fill="white" stroke="#333"
+                                                                    stroke-width="4" stroke-linecap="round"
+                                                                    stroke-linejoin="round" />
+                                                                <path d="M14 44V10H40V44L27 37.7273L14 44Z" fill="white"
+                                                                    stroke="#333" stroke-width="4"
+                                                                    stroke-linejoin="round" /></svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body d-flex align-items-center">
+                                                    <div class="w-100">
+                                                        <h6 class="card-title"><a class="text-decoration-none text-dark"
+                                                                href="">Sudharsan Villa,Laxmipatti</a></h6>
+                                                        <div class="d-flex card-subtitle mb-3">
+                                                            <p class="flex-grow-1 mb-0 text-muted text-sm">2 photos
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="swiper-wrapper pb-5">
+                                    <div class="swiper-slide h-auto px-2">
+                                        <!-- place item-->
+                                        <div class="w-100 h-100 hover-animate"
+                                            data-marker-id="59c0c8e3a31e62979bf147c9">
+                                            <div class="card h-100 border-0 shadow">
+                                                <div class="card-img-top overflow-hidden gradient-overlay"> <img
+                                                        class="img-fluid" src="https://i.stack.imgur.com/y9DpT.jpg"
+                                                        alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
+                                                        href="#"></a>
+                                                    <div class="card-img-overlay-top text-right">
+                                                        <a class="card-fav-icon position-relative z-index-40" href="">
+                                                            <?xml version="1.0" encoding="UTF-8"?><svg width="24"
+                                                                height="24" viewBox="0 0 48 48" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="48" height="48" fill="white"
+                                                                    fill-opacity="0.01" />
+                                                                <path d="M34 10V4H8V38L14 35" fill="white" stroke="#333"
+                                                                    stroke-width="4" stroke-linecap="round"
+                                                                    stroke-linejoin="round" />
+                                                                <path d="M14 44V10H40V44L27 37.7273L14 44Z" fill="white"
+                                                                    stroke="#333" stroke-width="4"
+                                                                    stroke-linejoin="round" /></svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body d-flex align-items-center">
+                                                    <div class="w-100">
+                                                        <h6 class="card-title"><a class="text-decoration-none text-dark"
+                                                                href="">Sudharsan Villa,Laxmipatti</a></h6>
+                                                        <div class="d-flex card-subtitle mb-3">
+                                                            <p class="flex-grow-1 mb-0 text-muted text-sm">2 photos
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <hr />
                 </section>
-                <section class="pt-6 ">
+                <!-- section project end  -->
+                <!-- section people start  -->
+                <section id="People">
                     <div class="container">
-                        <div class="row">
+                        <div>
+                            <a class="prople-fav-icon" href="">
+                                <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" fill="white" fill-opacity="0.01" />
+                                    <circle cx="14" cy="29" r="5" fill="none" stroke="#000000" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="34" cy="29" r="5" fill="none" stroke="#000000" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="24" cy="9" r="5" fill="none" stroke="#000000" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M24 44C24 38.4772 19.5228 34 14 34C8.47715 34 4 38.4772 4 44"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M44 44C44 38.4772 39.5228 34 34 34C28.4772 34 24 38.4772 24 44"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M34 24C34 18.4772 29.5228 14 24 14C18.4772 14 14 18.4772 14 24"
+                                        stroke="#000000" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" /></svg>
+                                <span>People</span>
+                            </a>
+                        </div>
+                        <span>PVS Architects has 3 current team members</span>
+                        
+                    <div class="row">
                         <div class="col-lg-6">
-                            <div class="swiper-wrapper pb-5">
-                                <div class="swiper-slide h-auto px-2">
-                                    <!-- place item-->
-                                    <div class="w-100 h-100 hover-animate" data-marker-id="59c0c8e3a31e62979bf147c9">
-                                        <div class="card h-100 border-0 shadow">
-                                            <div class="card-img-top overflow-hidden gradient-overlay"> <img
-                                                    class="img-fluid"
-                                                    src="https://d19m59y37dris4.cloudfront.net/directory/1-6-1/img/photo/photo-1512917774080-9991f1c4c750.jpg"
-                                                    alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
-                                                    href="detail-rooms.html"></a>
-                                                <div class="card-img-overlay-top text-right">
-                                                    <a class="card-fav-icon position-relative z-index-40" href="">
-                                                        <i class="fa fa-bookmark "></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="card-body d-flex align-items-center">
-                                                <div class="w-100">
-                                                    <h6 class="card-title"><a class="text-decoration-none text-dark"
-                                                            href="">Modern
-                                                            Apt - Vibrant Neighborhood!</a></h6>
-                                                    <div class="d-flex card-subtitle mb-3">
-                                                        <p class="flex-grow-1 mb-0 text-muted text-sm">Entire apartment
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="testimonial rounded-lg ">
+                                <div class="testimonial-avatar">
+                                    <div
+                                        style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 80px; height: 80px;">
+                                        <img alt="Jessica Watson"
+                                            src="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png"
+                                            decoding="async" class="img-fluid"
+                                            style="visibility: visible; position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                                            srcset="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png">
                                     </div>
+                                </div>
+                                <div class="text">
+                                    <strong>Sudharsan</strong>
+                                    <p class="testimonial-text">Director</p>
                                 </div>
                             </div>
                         </div>
+                        
+                    <div class="testimonial rounded-lg ">
+                        <div class="testimonial-avatar">
+                            <div
+                                style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 80px; height: 80px;">
+                                <img alt="Jessica Watson"
+                                    src="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png"
+                                    decoding="async" class="img-fluid"
+                                    style="visibility: visible; position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                                    srcset="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <strong>Sudharsan</strong>
+                            <p class="testimonial-text">Director</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
                         <div class="col-lg-6">
-                            <div class="swiper-wrapper pb-5">
-                                <div class="swiper-slide h-auto px-2">
-                                    <!-- place item-->
-                                    <div class="w-100 h-100 hover-animate" data-marker-id="59c0c8e3a31e62979bf147c9">
-                                        <div class="card h-100 border-0 shadow">
-                                            <div class="card-img-top overflow-hidden gradient-overlay"> <img
-                                                    class="img-fluid"
-                                                    src="https://d19m59y37dris4.cloudfront.net/directory/1-6-1/img/photo/photo-1512917774080-9991f1c4c750.jpg"
-                                                    alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
-                                                    href="detail-rooms.html"></a>
-                                                <div class="card-img-overlay-top text-right">
-                                                    <a class="card-fav-icon position-relative z-index-40" href="">
-                                                        <i class="fa fa-bookmark "></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="card-body d-flex align-items-center">
-                                                <div class="w-100">
-                                                    <h6 class="card-title"><a class="text-decoration-none text-dark"
-                                                            href="">Modern
-                                                            Apt - Vibrant Neighborhood!</a></h6>
-                                                    <div class="d-flex card-subtitle mb-3">
-                                                        <p class="flex-grow-1 mb-0 text-muted text-sm">Entire apartment
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="testimonial rounded-lg ">
+                                <div class="testimonial-avatar">
+                                    <div
+                                        style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 80px; height: 80px;">
+                                        <img alt="Jessica Watson"
+                                            src="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png"
+                                            decoding="async" class="img-fluid"
+                                            style="visibility: visible; position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                                            srcset="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png">
                                     </div>
+                                </div>
+                                <div class="text">
+                                    <strong>Sudharsan</strong>
+                                    <p class="testimonial-text">Director</p>
                                 </div>
                             </div>
                         </div>
+                        
+                    <div class="testimonial rounded-lg ">
+                        <div class="testimonial-avatar">
+                            <div
+                                style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 80px; height: 80px;">
+                                <img alt="Jessica Watson"
+                                    src="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png"
+                                    decoding="async" class="img-fluid"
+                                    style="visibility: visible; position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                                    srcset="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png">
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="swiper-wrapper pb-5">
-                                    <div class="swiper-slide h-auto px-2">
-                                        <!-- place item-->
-                                        <div class="w-100 h-100 hover-animate" data-marker-id="59c0c8e3a31e62979bf147c9">
-                                            <div class="card h-100 border-0 shadow">
-                                                <div class="card-img-top overflow-hidden gradient-overlay"> <img
-                                                        class="img-fluid"
-                                                        src="https://d19m59y37dris4.cloudfront.net/directory/1-6-1/img/photo/photo-1512917774080-9991f1c4c750.jpg"
-                                                        alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
-                                                        href="detail-rooms.html"></a>
-                                                    <div class="card-img-overlay-top text-right">
-                                                        <a class="card-fav-icon position-relative z-index-40" href="">
-                                                            <i class="fa fa-bookmark "></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="card-body d-flex align-items-center">
-                                                    <div class="w-100">
-                                                        <h6 class="card-title"><a class="text-decoration-none text-dark"
-                                                                href="">Modern
-                                                                Apt - Vibrant Neighborhood!</a></h6>
-                                                        <div class="d-flex card-subtitle mb-3">
-                                                            <p class="flex-grow-1 mb-0 text-muted text-sm">Entire apartment
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="swiper-wrapper pb-5">
-                                    <div class="swiper-slide h-auto px-2">
-                                        <!-- place item-->
-                                        <div class="w-100 h-100 hover-animate" data-marker-id="59c0c8e3a31e62979bf147c9">
-                                            <div class="card h-100 border-0 shadow">
-                                                <div class="card-img-top overflow-hidden gradient-overlay"> <img
-                                                        class="img-fluid"
-                                                        src="https://d19m59y37dris4.cloudfront.net/directory/1-6-1/img/photo/photo-1512917774080-9991f1c4c750.jpg"
-                                                        alt="Modern Apt - Vibrant Neighborhood!" /><a class="tile-link"
-                                                        href="detail-rooms.html"></a>
-                                                    <div class="card-img-overlay-top text-right">
-                                                        <a class="card-fav-icon position-relative z-index-40" href="">
-                                                            <i class="fa fa-bookmark "></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="card-body d-flex align-items-center">
-                                                    <div class="w-100">
-                                                        <h6 class="card-title"><a class="text-decoration-none text-dark"
-                                                                href="">Modern
-                                                                Apt - Vibrant Neighborhood!</a></h6>
-                                                        <div class="d-flex card-subtitle mb-3">
-                                                            <p class="flex-grow-1 mb-0 text-muted text-sm">Entire apartment
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
+                        <div class="text">
+                            <strong>Sudharsan</strong>
+                            <p class="testimonial-text">Director</p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <hr/>
+                </section>
+                <!-- section people end  -->
+                <section>
+                    <div class="container">
+                        <div>
+                            <a class="prople-fav-icon" href="">
+                                <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M23.9986 5L17.8856 17.4776L4 19.4911L14.0589 29.3251L11.6544 43L23.9986 36.4192L36.3454 43L33.9586 29.3251L44 19.4911L30.1913 17.4776L23.9986 5Z" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round"/></svg>
+                                <span>People</span>
+                            </a>
+                            <li class="nav-item nav-item mt-3 mt-lg-0 ml-lg-3 d-lg-none d-xl-inline-block float-right">
+                                <a class="nav-link btn btn-outline-primary" href=""><span>
+                                    <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M23.9986 5L17.8856 17.4776L4 19.4911L14.0589 29.3251L11.6544 43L23.9986 36.4192L36.3454 43L33.9586 29.3251L44 19.4911L30.1913 17.4776L23.9986 5Z" fill="none" stroke="#4a90e2" stroke-width="4" stroke-linejoin="round"/></svg>
+                                    </span>Add review</a>
+                            </li>
+                        </div>
+                        <span>10 reviews for PVS architects</span>
+                        
+<div>
+    <div class="testimonial rounded-lg ">
+        <div class="testimonial-avatar">
+            <div
+                style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 80px; height: 80px;">
+                <img alt="Jessica Watson"
+                    src="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png"
+                    decoding="async" class="img-fluid"
+                    style="visibility: visible; position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                    srcset="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png">
+            </div>
+        </div>
+        <div class="text">
+            <strong>Sudharsan</strong>
+            <p class="testimonial-text"><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i></p>
+        </div>
+    </div>
+    <p class="testimonial-text">content</p>
+    <hr/>
+</div>
+<div>
+    <div class="testimonial rounded-lg ">
+        <div class="testimonial-avatar">
+            <div
+                style="overflow: hidden; box-sizing: border-box; display: inline-block; position: relative; width: 80px; height: 80px;">
+                <img alt="Jessica Watson"
+                    src="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png"
+                    decoding="async" class="img-fluid"
+                    style="visibility: visible; position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                    srcset="https://www.globalpharmatek.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-2.png">
+            </div>
+        </div>
+        <div class="text">
+            <strong>Sudharsan</strong>
+            <p class="testimonial-text"><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i><i class="fa  fa-star text-warning"></i></p>
+        </div>
+    </div>
+    <p class="testimonial-text">content</p>
+    <hr/>
+</div>
                     </div>
                 </section>
             </div>
-            <div class="col-lg-4">
-                <div class="card-header bg-gray-100 py-4 border-0 text-center"><a class="d-inline-block" href="#"><img class="d-block avatar avatar-xxl p-2 mb-2" src="https://d19m59y37dris4.cloudfront.net/directory/1-6-1/img/avatar/avatar-10.jpg" alt=""></a>
+            <!-- col end  -->
+            <!-- col start  -->
+            <div class="col-lg-4 sidebar">
+                <div class=" py-4 border-0 ">
+                    <a class="" href="#">
+                        <img class="d-block avatar avatar-xxl p-2 mb-2"
+                            src="https://d19m59y37dris4.cloudfront.net/directory/1-6-1/img/avatar/avatar-10.jpg" alt="">
+                    </a>
                     <h5>Jack London</h5>
-                    <p class="text-muted text-sm mb-0">Los Angeles, CA  </p>
-                  </div>
+                    <p class="text-muted text-sm mb-0">Los Angeles, CA </p>
+                </div>
                 <div class="row">
                     <li class="nav-item nav-item mt-3 mt-lg-0 ml-lg-3 d-lg-none d-xl-inline-block">
-                        <a class="nav-link btn btn-outline-primary" href="">Sign up</a>
+                        <a class="nav-link btn btn-outline-primary" href="">
+                            <span>
+                                <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" fill="white" fill-opacity="0.01" />
+                                    <path d="M24.0607 10L24.024 38" stroke="#4a90e2" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M10 24L38 24" stroke="#4a90e2" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" /></svg>
+                            </span>
+                            Sign up</a>
                     </li>
                     <li class="nav-item nav-item mt-3 mt-lg-0 ml-lg-3 d-lg-none d-xl-inline-block">
-                        <a class="nav-link btn btn-outline-primary" href="">Sign up</a>
+                        <a class="nav-link btn btn-outline-primary" href=""><span>
+                                <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" fill="white" fill-opacity="0.01" />
+                                    <path
+                                        d="M35 16C37.7614 16 40 13.7614 40 11C40 8.23858 37.7614 6 35 6C32.2386 6 30 8.23858 30 11C30 13.7614 32.2386 16 35 16Z"
+                                        fill="#4a90e2" stroke="#4a90e2" stroke-width="4" stroke-linejoin="round" />
+                                    <path
+                                        d="M13 29C15.7614 29 18 26.7614 18 24C18 21.2386 15.7614 19 13 19C10.2386 19 8 21.2386 8 24C8 26.7614 10.2386 29 13 29Z"
+                                        fill="#4a90e2" stroke="#4a90e2" stroke-width="4" stroke-linejoin="round" />
+                                    <path d="M29.9999 13.5745L17.3388 21.2454" stroke="#4a90e2" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M17.3388 26.5639L30.6792 34.4469" stroke="#4a90e2" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M35 32C37.7614 32 40 34.2386 40 37C40 39.7614 37.7614 42 35 42C32.2386 42 30 39.7614 30 37C30 34.2386 32.2386 32 35 32Z"
+                                        fill="#4a90e2" stroke="#4a90e2" stroke-width="4" stroke-linejoin="round" />
+                                </svg>
+                            </span> Sign up</a>
                     </li>
                 </div>
                 <div class="border">
